@@ -2,7 +2,7 @@
 author: BKYJ_X
 pubDatetime: 2026-07-04T23:37:00Z
 title: Mo's Algorithm
-slug: my-new-post
+slug: mos-algorithm-en-us
 featured: false
 draft: false
 tags:
