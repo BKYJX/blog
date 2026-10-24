@@ -1,3 +1,19 @@
+---
+author: BKYJ_X
+pubDatetime: 2026-07-04T23:37:00Z
+title: Mo's Algorithm
+slug: my-new-post
+featured: false
+draft: false
+tags:
+  - IT
+  - OI
+  - C++
+  - algorithms
+  - English
+description: Introduction to Mo's algorithm
+---
+
 # Mo's Algorithm
 
 ## Acknowledgment
