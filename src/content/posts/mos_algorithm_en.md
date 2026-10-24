@@ -72,7 +72,7 @@ For each query (qL, qR), adjust the current interval [L, R] to [qL, qR]:
 
 1. **Adjust left boundary**:
    - If current L < qL (current left boundary is too far left), contract the left boundary until L=qL
-     ```
+     ```cpp
      while(current_l < q.l) {
          // Remove the effect of arr[current_l] on the answer
          count[arr[current_l]]--;
@@ -81,7 +81,7 @@ For each query (qL, qR), adjust the current interval [L, R] to [qL, qR]:
      }
      ```
    - If current L > qL (current left boundary is too far right), extend the left boundary until L=qL
-     ```CPP
+     ```cpp
      while(current_l > q.l) {
          current_l--;  // Move left boundary left
          // Add the effect of arr[current_l] on the answer
@@ -92,7 +92,7 @@ For each query (qL, qR), adjust the current interval [L, R] to [qL, qR]:
 
 2. **Adjust right boundary**:
    - If current R < qR (current right boundary is too far left), extend the right boundary until R=qR
-     ```CPP
+     ```cpp
      while(current_r < q.r) {
          current_r++;  // Move right boundary right
          // Add the effect of arr[current_r] on the answer
@@ -101,7 +101,7 @@ For each query (qL, qR), adjust the current interval [L, R] to [qL, qR]:
      }
      ```
    - If current R > qR (current right boundary is too far right), contract the right boundary until R=qR
-     ```
+     ```cpp
      while(current_r > q.r) {
          // Remove the effect of arr[current_r] on the answer
          count[arr[current_r]]--;
@@ -134,7 +134,7 @@ For each query (qL, qR), adjust the current interval [L, R] to [qL, qR]:
 
 Code:
 
-```CPP
+```cpp
 // Thanks, Mo Tao !!! 
 #include<cstdio>
 #include<cmath>
