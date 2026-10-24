@@ -2,36 +2,14 @@
 title: "About"
 description: "A bit about me and this blog."
 ---
+# 👋 Hello, I'm BKYJ_X
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Welcome to my blog! I usually record my OI studying, vibe coding experiences and summaries here :D
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+You can find me in the following social medias:
+* **GitHub**: [@BKYJX](https://github.com/BKYJX)
+* **Discord Server**: [BKYJ_X's Server](https://discord.gg/ptqCd2qPe)
+* **X**: [@bkyj_x_ryan](https://x.com/bkyj_x_ryan)
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
-
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
-
-## Features
-
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
-
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
-
-and so much more.
-
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+Email for Contact:
+* **Email**: [bkyj_x@hotmail.com](mailto:bkyj_x@hotmail.com)
