@@ -72,7 +72,7 @@ description: 莫队算法介绍
 
 1. **调整左边界**：
    - 如果当前L < qL（当前左边界太靠左），需要收缩左边界直到L=qL
-     ```
+     ```cpp
      while(current_l < q.l) {
          // 移除arr[current_l]对答案的影响
          count[arr[current_l]]--;
@@ -81,7 +81,7 @@ description: 莫队算法介绍
      }
      ```
    - 如果当前L > qL（当前左边界太靠右），需要扩展左边界直到L=qL
-     ```
+     ```cpp
      while(current_l > q.l) {
          current_l--;  // 左边界左移
          // 添加arr[current_l]对答案的影响
@@ -92,7 +92,7 @@ description: 莫队算法介绍
 
 2. **调整右边界**：
    - 如果当前R < qR（当前右边界太靠左），需要扩展右边界直到R=qR
-     ```
+     ```cpp
      while(current_r < q.r) {
          current_r++;  // 右边界右移
          // 添加arr[current_r]对答案的影响
@@ -101,7 +101,7 @@ description: 莫队算法介绍
      }
      ```
    - 如果当前R > qR（当前右边界太靠右），需要收缩右边界直到R=qR
-     ```
+     ```cpp
      while(current_r > q.r) {
          // 移除arr[current_r]对答案的影响
          count[arr[current_r]]--;
@@ -135,7 +135,7 @@ description: 莫队算法介绍
 
 上代码
 
-```CPP
+```cpp
 // 感谢莫涛贡献莫队算法
 // Thanks, Mo Tao !!!
 #include<cstdio>
