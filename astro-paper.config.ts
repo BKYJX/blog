@@ -24,7 +24,7 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/BKYJX/blog/edit/main/src/content/posts/",
+      url: "https://github.com/BKYJX/blog/edit/main/",
     },
     search: "pagefind",
   },
