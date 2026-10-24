@@ -1,3 +1,19 @@
+---
+author: BKYJ_X
+pubDatetime: 2026-07-04T23:37:00Z
+title: 莫队算法
+slug: my-new-post
+featured: false
+draft: false
+tags:
+  - IT
+  - OI
+  - C++
+  - algorithms
+  - Chinese
+description: 莫队算法介绍
+---
+
 # 莫队算法 (Mo's Algorithm)
 
 ## 致谢
