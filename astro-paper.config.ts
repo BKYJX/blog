@@ -2,14 +2,14 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
-    title: "AstroPaper",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
-    profile: "https://satna.ing",
+    url: "blog.bkyjx.top",
+    title: "BKYJ_X's blog",
+    description: "BKYJ_X's blog",
+    author: "BKYJ_X",
+    profile: "https://github.com/BKYJX",
     ogImage: "default-og.jpg",
-    lang: "en",
-    timezone: "Asia/Bangkok",
+    lang: "zh-cn",
+    timezone: "Asia/Taipei",
     dir: "ltr",
   },
   posts: {
@@ -24,15 +24,13 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
+      url: "https://github.com/BKYJX/blog/edit/main/src/content/posts/",
     },
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/satnaing/astro-paper" },
-    { name: "x",        url: "https://x.com/username" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-    { name: "mail",     url: "mailto:yourmail@gmail.com" },
+    { name: "github",    url: "https://github.com/BKYJX" },
+    { name: "mail",      url: "mailto:bkyj_x@hotmail.com" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
@@ -40,6 +38,6 @@ export default defineAstroPaperConfig({
     { name: "x",        url: "https://x.com/intent/post?url=" },
     { name: "telegram", url: "https://t.me/share/url?url=" },
     { name: "pinterest", url: "https://pinterest.com/pin/create/button/?url=" },
-    { name: "mail",     url: "mailto:?subject=See%20this%20post&body=" },
+    { name: "mail",      url: "mailto:?subject=See%20this%20post&body=" },
   ],
 });
