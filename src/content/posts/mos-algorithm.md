@@ -2,7 +2,7 @@
 author: BKYJ_X
 pubDatetime: 2026-07-04T23:37:00Z
 title: 莫队算法
-slug: my-new-post
+slug: mos-algorithm-zh-cn
 featured: false
 draft: false
 tags:
