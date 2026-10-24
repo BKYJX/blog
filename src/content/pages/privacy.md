@@ -1,4 +1,5 @@
 ---
+layout: ../layouts/AboutLayout.astro
 title: "Privacy"
 description: "Privacy Policy of the Site 本网站的隐私政策"
 ---
