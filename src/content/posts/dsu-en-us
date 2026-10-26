@@ -1,0 +1,44 @@
+---
+author: BKYJ_X
+pubDatetime: 2026-10-25T23:37:00Z
+title: DSU
+slug: dsu-en-us
+featured: false
+draft: false
+tags:
+  - IT
+  - OI
+  - C++
+  - algorithms
+  - English
+  - DSU
+description: Introduction to DSU
+---
+## Introduction
+DSU is a tree used to deal with merging and searching problems within non-intersecting sets. For example, we can use DSU to deal with problems like how many connected blocks are there in a graph, does a node belong to a connected block, are two nodes in a connected block, etc. A DSU is usually made up with an int array `pre[]` and two functions `find()` and `unite()`.
+
+## How it works
+`pre[i]` is used to storage `i`'s father node, and function `find()` is used to search the root node of a node. So, if two nodes `a` and `b` shares the same result of `find()` (`find(a) = find(b)`), then they belong to one connected block.
+According to the principle of `find()`, if it needs to connect two nodes using the function `unite()`, then it only needs to run `pre[find(b)] = find(a)`.
+**Note: The `pre` array needs initialization so that $pre_i=i$, as the base case of function `find()`.**
+
+## The template of function`find()` and `unite()`
+```cpp
+bool find(int k){ // search for a node's root
+	if(find(k) == k){ // pre_i = i，decursion ends, k is the No. of the root node
+		return k;
+	}
+	return find(pre[k]); // search for pre_i's father
+}
+```
+
+```cpp
+void unite(int a, int b){ // merge the connected blocks a&b belong to
+	a = find(a);
+	b = find(b); // process each's roots
+	if(a == b) return; // a&b are already connected
+	pre[b] = a; // connect, b is not a root again
+}
+```
+
+Template Problem: [Luogu P3367-【Template】DSU](https://www.luogu.com.cn/problem/P3367)
