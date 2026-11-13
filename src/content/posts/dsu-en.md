@@ -14,6 +14,7 @@ tags:
   - DSU
 description: Introduction to DSU
 ---
+
 ## Introduction
 DSU is a tree used to deal with merging and searching problems within non-intersecting sets. For example, we can use DSU to deal with problems like how many connected blocks are there in a graph, does a node belong to a connected block, are two nodes in a connected block, etc. A DSU is usually made up with an int array `pre[]` and two functions `find()` and `unite()`.
 
