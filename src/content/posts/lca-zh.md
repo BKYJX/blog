@@ -1,6 +1,6 @@
 ---
 author: BKYJ_X
-pubDatetime: 2026-11-13T14:34:00Z
+pubDatetime: 2026-11-13T22:34:00Z
 title: 最近公共祖先（LCA）
 slug: lca-zh-cn
 featured: false
